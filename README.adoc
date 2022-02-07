@@ -1628,7 +1628,7 @@ ____
 https://github.com/bitcoin/bitcoin/pull/19071[PR 19071] contained the documentation change now contained in the Bitcoin Core primary repository, along with details of the monotree approach that was ultimately taken.
 The documentation change provides guidance on what a "GUI change" is:
 
-[quote, _src/CONTRIBUTING.md_]
+[quote, src/CONTRIBUTING.md]
 ____
 As a rule of thumb, everything that only modifies `src/qt` is a GUI-only pull
 request. However:
