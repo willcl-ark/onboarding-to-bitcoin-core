@@ -1,4 +1,5 @@
 #!/bin/bash
+# entrypoint.sh
 
 # All run as user docs
 touch /home/docs/.bashrc
