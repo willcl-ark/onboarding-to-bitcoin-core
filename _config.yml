@@ -37,6 +37,8 @@ plugins:
 asciidoctor:
   attributes:
     imagesdir: images
+    source-highlighter: rouge
+    rouge-style: github
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
