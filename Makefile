@@ -10,6 +10,8 @@ production: clean all production-test
 ## https://github.com/bitcoinops/bitcoinops.github.io/pull/494#discussion_r546376335
 export GIT_PAGER='_contrib/kill0'
 JEKYLL_FLAGS = --future --drafts --unpublished --incremental
+## Needed for github actions to work properly
+SHELL=/bin/bash
 
 clean:
 	bundle exec jekyll clean
